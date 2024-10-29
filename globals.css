@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: white;
+}
+/* Colores */
+:root{
+    color-scheme: light dark;
+
+    --text-color-light:#f8fafc;
+    --text-color-dark:#f8fafc;
+    --bg-color-light:#FFFFFF;
+    --bg-color-dark:#262626;
+    --primary-color-light:#3730a3;
+    --primary-color-dark:#3730a3;
+    --button-hover: #3f50eb;
+    --button-color: #536DFE; /* Botón más destacable */
+    --input-background: #ffffff; /* Fondo de inputs blanco */
+    --box-shadow-color: rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
