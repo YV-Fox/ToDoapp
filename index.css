@@ -297,6 +297,25 @@ body {
     max-width: 60rem;
   }
 
+.done-task {
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+
+.edit-task-input {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.edit-task-input:focus {
+    outline: none;
+}
 
 .box{
     display: flex;
